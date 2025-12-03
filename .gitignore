@@ -1,0 +1,5 @@
+.idea
+target
+main
+day-*.txt
+.env

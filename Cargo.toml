@@ -1,0 +1,26 @@
+[package]
+name = "advent-of-code-2025"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+itertools = "0.14.0"
+glam = "0.30.9"
+petgraph = "0.8.3"
+
+# Parsing
+nom = "8.0.0"
+
+thiserror = "2.0.17"
+
+[[bin]]
+name = "day-01"
+path = "src/day-01.rs"
+
+[[bin]]
+name = "day-02"
+path = "src/day-02.rs"
+
+[[bin]]
+name = "day-03"
+path = "src/day-03.rs"
