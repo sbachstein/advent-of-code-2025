@@ -7,6 +7,7 @@ edition = "2021"
 itertools = "0.14.0"
 glam = "0.30.9"
 petgraph = "0.8.3"
+good_lp = { version = "1.14.2", features = ["highs"] }
 
 # Parsing
 nom = "8.0.0"
@@ -48,3 +49,7 @@ path = "src/day-08.rs"
 [[bin]]
 name = "day-09"
 path = "src/day-09.rs"
+
+[[bin]]
+name = "day-10"
+path = "src/day-10.rs"
